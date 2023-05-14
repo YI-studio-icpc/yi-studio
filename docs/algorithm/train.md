@@ -88,15 +88,16 @@ Tips：以下范围中标*的部分只限于 C/C++研究生组、C/C++大学 A �
 [学习资源](https://oi-wiki.org/contest/resources/)
 
 下面是我比较推荐的、适合我校学子水平的！
-* codeforces:[codeforces](https://codeforces.com) 
+
+* [codeforces](https://codeforces.com) 
   * 可以做一下里面的比赛，从div3和div2的第一题做起
-* 牛客:[牛客](https://ac.nowcoder.com/acm/home)
+* [牛客](https://ac.nowcoder.com/acm/home)
   * 牛客有小白月赛等很多比赛可以做。还可以做做别的学校的校赛同步赛等等。
-* ACWing:[ACWing](https://www.acwing.com/)
+* [ACWing](https://www.acwing.com/)
   * Acwing每周有周赛，赛后有讲解，y总也会经常讲一些题，可以白嫖到大量的课程资源。还有一些价格便宜的活动，比如一块钱的每日一题，每天都会有讲解，可以参加一下。
-* 洛谷:[洛谷](https://www.luogu.com.cn/)
+* [洛谷](https://www.luogu.com.cn/)
   * 洛谷主要面向搞OI的初高中生，但是其中大量的题库值得一看，并且里面有不错的社区氛围。
-* Vjudge:[Vjudge](https://vjudge.net/)
+* [Vjudge](https://vjudge.net/)
   * 可以将这个网站当做中介评测其他网站的题目，还是非常方便的。
 
 ### 其他

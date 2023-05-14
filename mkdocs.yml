@@ -1,3 +1,114 @@
+# Project Information
 site_name: 逸工作室
+site_description: 逸工作室 是一个算法爱好者交流的平台！
+site_author: YI-studio Team
+site_url: https://yi-studio-icpc.github.io/yi-studio-icpc/
+strict: false
+
+# Repository
+repo_name: 'Linincun/yi-studio-icpc'
+repo_url: 'https://github.com/Linincun/yi-studio-icpc'
+
+# Contents
+nav:
+  - 简介:
+    - Getting Started: index.md
+  - 比赛相关:
+    - 比赛相关简介: algorithm/index.md
+    - 比赛训练: algorithm/train.md
+
+# Theme
 theme:
-  name: 'material'
+  name: null
+  custom_dir: 'mkdocs-material/material'
+  static_templates:
+    - 404.html
+  language: 'zh'
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  include_search_page: false
+  search_index_only: true
+  favicon: 'favicon.ico'
+  icon:
+    logo: 'material/school'
+  features:
+    - navigation.tabs
+    - navigation.instant
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
+
+plugins: []
+
+hooks:
+  - hooks/on_env.py
+
+# Customization
+extra:
+  disqus: 'YI-studio'
+  copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
+  pagetime: 'on'
+  manifest: 'manifest.webmanifest'
+  githash: ''
+  analytics:
+    provider: google
+    property: UA-124485594-1
+
+extra_javascript:
+  - '_static/js/math-csr.js?math-csr'
+  - 'assets/vendor/mathjax/es5/tex-mml-chtml.js?math-csr'
+
+extra_css:
+  - '_static/css/extra.css?v=14'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: ""
+      slugify: !!python/name:pymdownx.slugs.uslugify
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
